@@ -60,7 +60,7 @@ pipeline {
                 }
             }
         }
-        stage('trivy image scane') {
+        stage('trivy image scan') {
             steps {
                 sh "trivy image akshayarsude1997/fullstack > trivy-report.txt"
             }
